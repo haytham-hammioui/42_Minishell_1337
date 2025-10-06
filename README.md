@@ -13,13 +13,13 @@ The `minishell` project is part of the 42 network curriculum. It is a simplified
 
  - **Command Execution**: Execute system commands and programs.
  - **Built-in Commands**:
-        * `echo` with `-n` option.
-        * `cd` with relative and absolute paths.
-        * `pwd` to print working directory.
-        * `export` to set environment variables.
-        * `unset` to remove environment variables.
-        * `env` to display environment.
-        * `exit` to terminate the shell.
+        - `echo` with `-n` option.
+        - `cd` with relative and absolute paths.
+        - `pwd` to print working directory.
+        - `export` to set environment variables.
+        - `unset` to remove environment variables.
+        - `env` to display environment.
+        - `exit` to terminate the shell.
  - **Pipes**: Support for multiple commands connected with pipes (`|`).
  - **Redirections**: Input (`<`), output (`>`), append (`>>`), and herdoc (`<<`).
  - **Environment Variables**: Expansion of `$VAR` and `$?` (exit status).
@@ -70,6 +70,11 @@ The `minishell` project is part of the 42 network curriculum. It is a simplified
  - **Signal Handling**: Proper handling of interrupt signals.
  - **Norm Compliance**: Code follows 42's coding standard (Norminette).
 
+## Developed By
+
+  - **[smaksiss](https://github.com/M4KSS1S)** - Lead Developer  
+  - **[hhammiou](https://github.com/haytham-hammioui)** - Core Contributor
+  
 ## Contributing
 
 Contributions to `minishell` are welcome! Whether you've found a bug, have a feature request, or want to contribute code:
