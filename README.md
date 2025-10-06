@@ -11,21 +11,25 @@ The `minishell` project is part of the 42 network curriculum. It is a simplified
 
 ## Features
 
- - **Command Execution**: Execute system commands and programs.
- - **Built-in Commands**:
-        - `echo` with `-n` option.
-        - `cd` with relative and absolute paths.
-        - `pwd` to print working directory.
-        - `export` to set environment variables.
-        - `unset` to remove environment variables.
-        - `env` to display environment.
-        - `exit` to terminate the shell.
- - **Pipes**: Support for multiple commands connected with pipes (`|`).
- - **Redirections**: Input (`<`), output (`>`), append (`>>`), and herdoc (`<<`).
- - **Environment Variables**: Expansion of `$VAR` and `$?` (exit status).
- - **Signal Handling**: Proper handling of `Ctrl-C`, `Ctrl-D`, and `Ctrl-\`.
- - **History**: Command history navigation with arrow keys.
- - **Error Handling**: Comprehensive error messages and proper memory management
+- **Command Execution**: Execute system commands and programs
+- **Built-in Commands**:
+  - `echo` - Print text with `-n` option to omit newline
+  - `cd` - Change directory with relative/absolute paths
+  - `pwd` - Print current working directory
+  - `export` - Set and export environment variables
+  - `unset` - Remove environment variables
+  - `env` - Display current environment
+  - `exit` - Terminate the shell with optional exit code
+- **Pipes**: Support for multiple commands connected with pipes (`|`)
+- **Redirections**: 
+  - Input (`<`) - Redirect input from files
+  - Output (`>`) - Redirect output to files (overwrite)
+  - Append (`>>`) - Redirect output to files (append)
+  - Heredoc (`<<`) - Read input until delimiter
+- **Environment Variables**: Expansion of `$VAR` and `$?` (exit status)
+- **Signal Handling**: Proper handling of `Ctrl-C`, `Ctrl-D`, and `Ctrl-\`
+- **History**: Command history navigation with arrow keys
+- **Error Handling**: Comprehensive error messages and proper memory management
 
 ## Getting Started
 
@@ -72,8 +76,8 @@ The `minishell` project is part of the 42 network curriculum. It is a simplified
 
 ## Developed By
 
-  - **[smaksiss](https://github.com/M4KSS1S)** - Lead Developer  
-  - **[hhammiou](https://github.com/haytham-hammioui)** - Core Contributor
+  - **[smaksiss](https://github.com/M4KSS1S)**  
+  - **[hhammiou](https://github.com/haytham-hammioui)**
   
 ## Contributing
 
