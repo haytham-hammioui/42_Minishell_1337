@@ -33,7 +33,8 @@ SRCS = mandatory/minishell.c		\
 		mandatory/exec/heredoc1.c \
 		mandatory/env/env_help.c \
 		mandatory/built-ins/export.c \
-		mandatory/built-ins/utils/ft_lstadd_back.c mandatory/env/create_env.c mandatory/built-ins/env.c mandatory/built-ins/pwd.c mandatory/built-ins/cd.c mandatory/built-ins/echo.c mandatory/built-ins/unset.c mandatory/built-ins/handle_built_in.c mandatory/built-ins/utils/ft_putstr_fd_bonus.c \
+		mandatory/built-ins/utils/ft_lstadd_back.c \
+		mandatory/env/create_env.c mandatory/built-ins/env.c mandatory/built-ins/pwd.c mandatory/built-ins/cd.c mandatory/built-ins/echo.c mandatory/built-ins/unset.c mandatory/built-ins/handle_built_in.c mandatory/built-ins/utils/ft_putstr_fd_bonus.c \
         mandatory/built-ins/ft_exit.c mandatory/built-ins/utils/ft_split_cmd_bonus.c mandatory/built-ins/utils/ft_substr.c \
         mandatory/exec/exec.c mandatory/exec/cmd_path.c mandatory/exec/heredoc.c mandatory/exec/io_fds.c mandatory/exec/err_handle.c mandatory/exec/executing.c mandatory/exec/env_to_arr.c
 
